@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Montserrat';
+  background-color: #159aed;
+  color: black;
+  text-align: center;
+}
+
+.center {
+  box-sizing: content-box;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: white;
+  
+}
+
+.article {
+  margin-top: 50px;
+  /* 
+   * PARA O DISPLAY INLINE BLOCK FUNCIONAR:
+   * display: inline-block;
+   * margin-right: -4px;
+   */
+  width: 600px;
+  vertical-align: top;
+  border: 5px solid black;
+}
